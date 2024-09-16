@@ -1,0 +1,12 @@
+version: "3.8"
+
+services:
+  app:
+    container_name: treasure_onah_dev
+    image: treasure_onah_dev
+    build:
+      context: .
+    volumes:
+      - ./src:/treasure_onah_site/src
+    ports:
+      - 7775:3000
