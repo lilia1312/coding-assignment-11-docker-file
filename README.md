@@ -18,5 +18,4 @@ This is a React application that displays a `<h1>` tag with the text "Codin 1".
 
   Run this to start the container
 
-   ```bash
   docker-compose -f docker-compose.dev.yml up# coding-assignment-11-docker-file
